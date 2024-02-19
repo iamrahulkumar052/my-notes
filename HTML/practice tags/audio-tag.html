@@ -6,9 +6,20 @@
 </head>
 <body>
     <h1>Audio Tag</h1>
-    <p>Click on the play button:</p>
-    <audio controls>
-        <source src="src\saudio.mp3" type="audio/mp3">
-      </audio>
+    
+    <p>Autoplay audio</p> <!--Specifies that the audio will start playing as soon as it is ready-->
+    <audio controls autoplay>
+       <source src="src\saudio.mp3" type="audio/mp3">
+    </audio>
+
+    <p>Loop audio</p>  <!--Specifies that the audio will start over again, every time it is finished-->
+    <audio controls loop>
+       <source src="src\saudio.mp3" type="audio/mp3">
+    </audio>
+
+    <p>Muted audio</p>  <!--Specifies that the audio output should be muted-->
+    <audio controls muted>
+       <source src="src\saudio.mp3" type="audio/mp3">
+    </audio>
 </body>
 </html>

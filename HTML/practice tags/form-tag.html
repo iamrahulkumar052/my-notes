@@ -1,0 +1,72 @@
+<!-- In this we will practice <form>,<label>,<input>,<output>,<textarea>,<fieldset>,<optgroup>,<option>,<datalist>,<select> tags-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Coding practice</title>
+</head>
+<body>
+    <h1>The Form tag</h1>
+
+    <form> <!--	Defines an HTML form for user input-->
+        <label for="single">Singleline Box:</label> <!--Defines a label for an <input> element-->
+        <input type="text" id="single"> <hr>   <!--Defines an input control-->
+
+        <label for="multi">Multiline Box:</label>
+        <textarea id="multi" rows="5" cols="10">Email: Address: Education: Extra Details:</textarea> <hr>
+        <!--Defines a multiline input control (text area)-->
+
+        <fieldset>  <!--Groups related elements in a form-->
+            <legend>Personal Data:</legend> <!--Defines a caption for a <fieldset> element-->
+
+            <label for="fname">First name:</label>
+            <input type="text" id="fname"> <br> <br>
+
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname"> <br><br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob"> <br><br>
+
+            <label for="mail">Email Id:</label>
+            <input type="email" id="mail"> <br><br>
+        </fieldset> <hr>
+
+        <label for="menu">Select Dishes:</label>
+        <select id="menu"> <!--Defines a drop-down list-->
+
+            <optgroup label="Veg">  <!--Defines a group of related options in a drop-down list-->
+               <option>Rice Fry</option> 
+               <option>Dosa</option> <!--Defines an option in a drop-down list-->
+            </optgroup>
+            
+            <optgroup label="Non-veg">
+                <option>Biryani</option> 
+                <option>Fried chicken</option> 
+            </optgroup>
+            
+        </select><hr>
+
+        <label for="hobby">Choose your Hobby:</label>
+        <input list="hobbies" id="hobby">
+        <datalist id="hobbies">    <!--Specifies a list of pre-defined options for input controls-->
+            <option value="Singing">
+            <option value="Reading">
+            <option value="Sports">
+            <option value="Blogging">
+            <option value="travel">
+        </datalist> <hr>
+
+        <button type="button" onclick="alert('data submited')">Submit</button>
+        <!--Defines a clickable button-->
+
+    </form>
+
+    <h1> ouput tag </h1>
+    <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+        <input type="number" id="a" value="30">
+        +<input type="number" id="b" value="30">
+        =<output name="x" for="a b"></output> <!--Defines the result of a calculation-->
+    </form>
+
+</body>
+</html>
