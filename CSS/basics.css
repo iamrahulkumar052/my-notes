@@ -1,0 +1,47 @@
+/* A CSS rule consists of a selector and a declaration block */
+
+p {   /*p is a selector in CSS*/
+
+    color: red;   /*color is a property, and red is the property value*/
+
+    text-align: center;    /*text-align is a property, and center is the property value*/
+  }
+  
+/*A CSS selector selects the HTML element(s) you want to style*/
+
+/*Types of selector*/
+
+/*Simple selector*/
+p {  /*Here, all <p> elements on the page will be center-aligned, with a red text color*/
+  text-align: center;
+  color: red;
+}
+
+/* Id selector*/
+#para1 {   /*this will be applied to the HTML element with id="para1"*/
+  text-align: center;
+  color: red;
+}
+
+/*Class selector*/
+.center {    /*all HTML elements with class="center" will be red and center-aligned*/
+  text-align: center;
+  color: red;
+}
+
+p.center {   /*only <p> elements with class="center" will be red and center-aligned*/
+  text-align: center;
+  color: red;
+}
+
+/*Universal selector*/
+* {   /*will affect every HTML element on the page*/
+  text-align: center;
+  color: blue;
+}
+
+/*Grouping selector*/
+h1, h2, p {    /* grouping selector selects all the HTML elements with the same style definitions*/
+  text-align: center;
+  color: red;
+}
