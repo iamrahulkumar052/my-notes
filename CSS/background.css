@@ -1,0 +1,76 @@
+/*The CSS background properties are used to add background effects for elements*/
+
+body {   /*The background color of a page is set like this*/
+    background-color: lightblue;
+  }
+  
+
+  /*the <h1>, <p>, and <div> elements will have different background colors*/
+  h1 {
+    background-color: green;
+  }
+  
+  div {
+    background-color: lightblue;
+  }
+  
+  p {
+    background-color: yellow;
+  }
+
+
+/* set opacity of background*/
+  div { /*The opacity property specifies the opacity/transparency of an element*/
+    background-color: green;
+    opacity: 0.3;  /*It can take a value from 0.0 - 1.0. The lower value, the more transparent*/
+  }
+
+
+/* set background image*/
+  body {  /*Set the background image for a page*/
+    background-image: url("tiger.jpg");
+  }
+
+  p {
+    background-image: url("tiger.jpg");
+  }
+
+
+/* background repeat */
+  body { /* repeat an image horizontally, set background-repeat: repeat-x;*/
+    background-image: url("tiger.jpg");
+    background-repeat: repeat-x;
+  }
+
+  body { /* repeat an image vertically, set background-repeat: repeat-y;*/
+    background-image: url("tiger.jpg");
+    background-repeat: repeat-y;
+  }
+
+  body {  /*Show the background image only once*/
+    background-image: url("tiger.jpg");
+    background-repeat: no-repeat;
+  }
+
+/* background position*/
+body {
+    background-image: url("img_tree.png");
+    background-repeat: no-repeat;
+    background-position: right top;  /*Position the background image in the top-right corner*/
+  }
+
+
+/*The background-attachment property specifies whether the background image should scroll or be fixed*/
+body {
+    background-image: url("tiger.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed; /*Specify that the background image should be fixed*/
+  }
+
+body {
+    background-image: url("tiger.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: scroll;  /*Specify that the background image should scroll with the rest of the page*/
+  }
