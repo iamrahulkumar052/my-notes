@@ -74,3 +74,15 @@ body {
     background-position: right top;
     background-attachment: scroll;  /*Specify that the background image should scroll with the rest of the page*/
   }
+
+/* Background shorthand */
+body {
+    background-color: #ffffff;
+    background-image: url("tiger.jpg");  /*long formart*/
+    background-repeat: no-repeat;
+    background-position: right top;
+  }
+
+  body {   /*shorthand*/
+    background: #ffffff url("tiger.jpg") no-repeat right top;
+  }
