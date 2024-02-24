@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>What Can JavaScript Do?</h1>
+
+<!--JavaScript Can Change HTML Content-->
+<p id="demo">JavaScript can change HTML content.</p>
+
+<button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Magic!</button> <hr>
+
+
+<!--JavaScript accepts both double and single quotes:-->
+<p id="demo1">JavaScript can change HTML content.</p>
+
+<button type="button" onclick="document.getElementById('demo1').innerHTML = 'Hello JavaScript 2!'">Suprise!</button> <hr>
+
+
+<!--JavaScript Can Change HTML Styles-->
+<p id="demo2">JavaScript can change the style of an HTML element.</p>
+
+<button type="button" onclick="document.getElementById('demo2').style.fontSize='35px'">change style!</button> <hr>
+
+
+<!--JavaScript can hide HTML elements-->
+<p id="demo3">JavaScript can hide HTML elements.</p>
+
+<button type="button" onclick="document.getElementById('demo3').style.display='none'">Hide Me!</button> <hr>
+
+
+<!--JavaScript Can Show HTML Elements-->
+<p>JavaScript can show hidden HTML elements.</p>
+
+<p id="demo4" style="display:none">Hello JavaScript!</p>
+
+<button type="button" onclick="document.getElementById('demo4').style.display='block'">Show Me!</button>
+
+</body>
+</html>

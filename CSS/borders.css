@@ -47,15 +47,6 @@ p.one {
     border-width: medium;
   }
   
-  p.three {
-    border-style: dotted;
-    border-width: 2px;
-  }
-  
-  p.four {
-    border-style: dotted;
-    border-width: thick;
-  }
 
   /*the border-width property can have from one to four values (for the top border, right border, bottom border, and the left border)*/
   p.one {
