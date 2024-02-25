@@ -1,0 +1,57 @@
+<!--JavaScript Output: JavaScript Display Possibilities-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Coding Practise</title>
+</head>
+<body>
+
+    <h1>Javascript Output</h1>
+    <h2>There are 4 ways to display Javascript Output.</h2>
+    
+    
+
+    <!--using InnerHTML-->
+    <p> Fist is using innerHTML</p>
+    <p id="para1"></p>
+    <script>
+        document.getElementById("para1").innerHTML=55+88;
+    </script> <hr>
+
+    <!--Using document.write()-->
+    <p> Second is using document.write() </p>
+    <script>
+        document.write(5 + 6);
+        document.write("Hello Guys")
+    </script>
+
+    <!--Note-->
+    <p>Note: Using document.write() after an HTML document is loaded, will delete all existing HTML</p>
+    <button type="button" onclick="document.write(5 + 6)">Check me</button> <hr>
+
+    <!--Using window.alert()-->
+    <p>Third is window.alert()</p>
+    <script>
+        alert("this is window alert");
+        window.alert(7+8);
+    </script>  <hr>
+
+    <!--Using console.log()-->
+    <p>Note:For debugging purposes only</p>
+    <p>Fourth is console.log()</p>
+    <script>
+        console.log("this is console log");
+        console.log(5+7);
+    </script> <hr>
+
+
+    <!--use for printing purpose-->
+    <h2>The window.print() Method</h2>
+    <p>Click the button to print the current page.</p>
+
+    <button onclick="window.print()">Print this page</button> 
+
+
+</body>
+</html>
