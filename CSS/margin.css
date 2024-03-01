@@ -1,0 +1,40 @@
+/* CSS margins */
+/*The CSS margin properties are used to create space around elements, outside of any defined borders.*/
+
+div {  /*This element has a margin of 70px*/
+    margin: 70px;
+    border: 1px solid #4CAF50;
+}
+
+
+p {  /*Set different margins for all four sides of a <p> element*/
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+}
+
+
+p { /* Use the margin shorthand property with four values:top,right,bottom,left in order*/
+    margin: 25px 50px 75px 100px;
+}
+
+
+p { /* Use the margin shorthand property with three values:top,right,bottom in order*/
+    margin: 25px 50px 75px;
+}
+
+p { /* Use the margin shorthand property with two values:top,right in order*/
+    margin: 25px 50px;
+}
+
+p { /* Use the margin shorthand property with one values for all borders*/
+    margin: 25px ;
+}
+
+
+div {  /*This div will be horizontally centered because it has margin: auto;*/
+    width: 300px;
+    margin: auto;
+    border: 1px solid red;
+  }
