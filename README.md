@@ -1,5 +1,6 @@
 # My Notes
-- here i write my own notes of programming languages
+- Here I write `my notes` on programming languages
+- Only For **Reference purpose**
 
 ||Name|Notes|
 |:-:|:-:|:-|
