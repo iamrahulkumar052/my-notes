@@ -12,3 +12,7 @@ delete from student where id=4;
 delete from student where id<4;
 
 -- it will delete rows having id 1,2,3
+
+
+-- use this to delete all records from table
+delete from student;
