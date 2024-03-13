@@ -5,3 +5,6 @@ select*from student where stud_id>5;
 
 select*from student where stud_id<5;
 -- this will give stud_id which less than 5
+
+select*from student where stud_id=5;
+-- this will give stud_id which is equal than 5
