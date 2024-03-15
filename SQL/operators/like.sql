@@ -2,3 +2,6 @@
 
 select*from student where stud_name LIKE 'a%';
 -- this will return records in which stud_name starts with 'a'
+
+select*from student where stud_name LIKE '%b';
+-- this will return records in which stud_name ends with 'b'
