@@ -8,3 +8,6 @@ select*from student where stud_name LIKE '%b';
 
 select*from student where stud_name LIKE '%a%';
 -- this will return records in which stud_name contains 'a'
+
+select*from student where stud_name LIKE '_a%';
+-- this will return records in which stud_name 'a' at second last position
