@@ -10,7 +10,6 @@ printAll("Hello", "Hallo", "Salut", "Hola", "你好")                 //This all
 fun printAllWithPrefix(vararg messages: String, prefix: String) {  //Using named parameters,we can add another parameter of the same type after the vararg
     for (m in messages) println(prefix + m)
 }
-
 printAllWithPrefix(
     "Hello", "Hallo", "Salut", "Hola", "你好",
     prefix = "Greeting: "                                          //Using named parameters,we can set a value to prefix separately from the vararg
