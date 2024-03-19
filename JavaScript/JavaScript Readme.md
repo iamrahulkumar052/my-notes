@@ -1,1 +1,1 @@
-# Language: **`JavaScript`**
+# Language: **`JS`**
