@@ -2,9 +2,6 @@
 - Here I write `my notes` on programming languages
 - Only For **Reference purpose**
 
-<div align="center"><a name="readme-top"></a>
-
-
 |😶‍🌫️|Name|`Click`|
 |:-:|:-:|:-:|
 |1|`HTML`|[getNotes](https://github.com/iamrahulkumar052/my-notes/tree/main/HTML/HTML%20Readme.md)|
