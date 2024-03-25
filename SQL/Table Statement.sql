@@ -23,6 +23,9 @@ delete from EMPLOYEE ;
 -- or
 delete * from EMPLOYEE;
 
+-- 5. Delete all records of table [Not Table]
+TRUNCATE Table EMPLOYEE;
+
 -- 5. Rename Table Name
 ALTER TABLE EMPLOYEE RENAME TO emp_details;
 
