@@ -33,3 +33,6 @@ SELECT count(CustomerName),Country from Customer GROUP BY Country HAVING Age<24;
 
 -- 6. use ORDER BY clause to fetch records in ascending or descending
 SELECT * from Customer ORDER BY Age DESC;
+
+-- 7. use RANDOM to return a random row from a table
+SELECT * from Customer ORDER BY RANDOM();
